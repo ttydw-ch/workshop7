@@ -30,7 +30,7 @@ jobs:
           chmod +x $HOME/dependency-check/dependency-check/bin/dependency-check.sh
           $HOME/dependency-check/dependency-check/bin/dependency-check.sh \
             --project "bitcoin" \
-            --nvdApiKey ${{ secrets.WORKSHOP6_NVD_API_KEY }} \
+            --nvdApiKey ${{ secrets.WORKSHOP7_NVD_API_KEY }} \
             --out . \
             --scan . \
             --disableOssIndex
