@@ -2,7 +2,7 @@ name: "owasp-scan"
 
 on:
   push:
-    branches: [githubcicd]
+    branches: [githubcidd]
 
 jobs:
   test:
