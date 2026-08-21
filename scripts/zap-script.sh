@@ -3,6 +3,7 @@
 docker pull zaproxy/zap-stable
 
 docker run -i --rm \
+  -u 0 \
   -v "$(pwd):/zap/wrk/:rw" \
   zaproxy/zap-stable \
   zap-baseline.py \
