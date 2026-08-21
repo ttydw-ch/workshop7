@@ -7,6 +7,6 @@ docker run -i --rm \
   zaproxy/zap-stable \
   zap-baseline.py \
   -t "https://kenken64.github.io/bit" \
-  -r zap_baseline_report.html
+  -r /zap/wrk/zap_baseline_report.html
 
 echo $? > /dev/null
